@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    
+    
+    <input type="text" 
+    id="password"
+    min="8" max="32" autofocus autocomplete="off" placeholder="Enter the passowrd"/>
+    <div>
+        <span id="uc">UpperCase</span>
+        <span id="lc">LowerCase</span>
+        <span id="num">Number</span>
+        <span id="symbols">Symbols</span>
+    </div>
+
+    <div class="progressContainer">
+        <div id="progressbar"></div>
+    </div>
+
+    <div>
+        <p>password has <strong id="char">0</strong> characters</p>
+        <p>your password is <strong id="strength">weak</strong></p>
+    </div>
+<Script src="./index.js"></Script>
+</body>
+</html>
